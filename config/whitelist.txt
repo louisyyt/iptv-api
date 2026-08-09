@@ -1,14 +1,23 @@
-# 这是接口的白名单，白名单内的接口将不会参与测速，始终保留至结果最前；
-# 填写频道名称会直接保留该记录至该频道的最终结果，如：CCTV-1,接口地址；
-# 如果不填写频道名称，则该地址会被加入到所有频道的结果中，多条记录换行输入。
-# This is the whitelist for interfaces. Interfaces in the whitelist will not be speed tested and will always be kept at the top of the results;
-# Filling in the channel name will directly retain the record to the final result of the channel, such as: CCTV-1, interface address;
-# If the channel name is not filled in, the address will be added to the results of all channels, with multiple records entered on new lines.
-
-
-
-
-
-[KEYWORDS]
-# 以下区域是关键字白名单，某频道获取到的接口地址中含有指定关键字，则该接口会被加入该频道的白名单，多条记录换行输入。
-# This area is the keyword whitelist. If the interface address obtained by a certain channel contains the specified keyword, the interface will be added to the whitelist of the channel, with multiple records entered on new lines.
+# 港台频道白名单（本地验证可播，避免海外测速误杀）
+# 格式：频道名称,接口地址
+香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
+TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+GTV八大第1台HD,http://61.221.215.25:8800/hls/55/index.m3u8
+GTV八大戲劇HD,http://61.221.215.25:8800/hls/39/index.m3u8
+GTV八大綜合台HD,http://61.221.215.25:8800/hls/56/index.m3u8
+SET三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
+中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
+緯來精采HD,http://61.221.215.25:8800/hls/48/index.m3u8
+AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
+中華小當家,http://61.221.215.25:8800/hls/40/index.m3u8
+Discovery探索頻道,http://61.221.215.25:8800/hls/1/index.m3u8
+Discovery探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
+動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
+NHK WORLD,http://61.221.215.25:8800/hls/51/index.m3u8
+音樂欣賞1,http://61.221.215.25:8800/hls/49/index.m3u8
+音樂欣賞2,http://61.221.215.25:8800/hls/58/index.m3u8
+东森超视34.5,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+东森美洲卫视,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+民视新闻台,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
+台视新闻 HD,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
