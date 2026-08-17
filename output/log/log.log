@@ -572,3 +572,61 @@
 2026-08-15T14:05:06+00:00 INFO    [run=4788c15c90c242a091d5739b16fcaa0a phase=statistics event=statistics.finished] 频道统计完成：测试 495，有效 31
 2026-08-15T14:05:06+00:00 INFO    [run=4788c15c90c242a091d5739b16fcaa0a phase=complete event=run.summary] 更新摘要
 2026-08-15T14:05:06+00:00 INFO    [run=4788c15c90c242a091d5739b16fcaa0a phase=complete event=run.finished] 更新完成！总耗时：03:38
+2026-08-17T14:01:40+00:00 INFO    [event=application.started] IPTV-API 版本: 3.0.0 (构建时间: 2026-08-07 11:45:59)
+2026-08-17T14:01:41+00:00 INFO    [phase=prepare event=network.ipv6.checking] 🛜 正在检查当前网络是否支持IPv6...
+2026-08-17T14:01:41+00:00 WARNING [phase=prepare event=network.ipv6.unsupported] 当前网络不支持IPv6，别担心，IPv6的结果会被保存下来
+2026-08-17T14:01:41+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=prepare event=run.started] 性能模式: auto → balance，可用资源: 4.0 CPU / 15.61 GB，并发: 测速 8、媒体探测 2、源抓取 8
+2026-08-17T14:01:41+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=prepare event=channels.catalog_loaded] 频道目录已加载：白名单 86，黑名单 2，台标 21
+2026-08-17T14:01:41+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=sources.subscribe.summary] 订阅源数量：12，订阅白名单数量：0，停用地址数量：0，有效总数量：12
+2026-08-17T14:01:41+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.started] 正在进行获取订阅源  0/12
+2026-08-17T14:01:42+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  1/12 (8%)  剩余 11
+2026-08-17T14:01:42+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  3/12 (25%)  剩余 9
+2026-08-17T14:01:42+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  5/12 (41%)  剩余 7
+2026-08-17T14:01:53+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/CCTV.m3u失败，正在进行第1次重试...
+2026-08-17T14:01:53+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/china.m3u失败，正在进行第1次重试...
+2026-08-17T14:01:54+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E8%BD%AE%E6%92%AD_%E5%8D%8E%E6%95%B0.NewTV.SiTV.CIBN.m3u失败，正在进行第1次重试...
+2026-08-17T14:01:54+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E8%BD%AE%E6%92%AD_%E5%8D%8E%E6%95%B0%E6%B1%82%E7%B4%A2%E7%88%B1%E5%A5%87%E8%89%BACIBN.m3u失败，正在进行第1次重试...
+2026-08-17T14:01:54+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E7%88%B1%E5%A5%87%E8%89%BACIBN%E5%8D%8E%E6%95%B0NewTV%E8%BD%AE%E6%92%AD.m3u失败，正在进行第1次重试...
+2026-08-17T14:01:54+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%97%A8202506.m3u失败，正在进行第1次重试...
+2026-08-17T14:01:55+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  7/12 (58%)  剩余 5
+2026-08-17T14:02:05+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=source.request_failed] 订阅源请求失败：❌ 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/china.m3u失败，已达到最大重试次数
+2026-08-17T14:02:05+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=source.request_failed] 订阅源请求失败：❌ 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/CCTV.m3u失败，已达到最大重试次数
+2026-08-17T14:02:05+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  9/12 (75%)  剩余 3
+2026-08-17T14:02:06+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=source.request_failed] 订阅源请求失败：❌ 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E8%BD%AE%E6%92%AD_%E5%8D%8E%E6%95%B0%E6%B1%82%E7%B4%A2%E7%88%B1%E5%A5%87%E8%89%BACIBN.m3u失败，已达到最大重试次数
+2026-08-17T14:02:06+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=source.request_failed] 订阅源请求失败：❌ 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E7%88%B1%E5%A5%87%E8%89%BACIBN%E5%8D%8E%E6%95%B0NewTV%E8%BD%AE%E6%92%AD.m3u失败，已达到最大重试次数
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  11/12 (91%)  剩余 1
+2026-08-17T14:02:06+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=source.request_failed] 订阅源请求失败：❌ 请求https://cdn.jsdelivr.net/gh/imDazui/Tvlist-awesome-m3u-m3u8@master/m3u/%E8%BD%AE%E6%92%AD_%E5%8D%8E%E6%95%B0.NewTV.SiTV.CIBN.m3u失败，已达到最大重试次数
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取订阅源  12/12 (100%)  剩余 0
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=sources.subscribe.finished] 订阅源: ✅ 有效地址数量：12，⛔ 停用地址数量：0
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=sources.subscribe.epg_discovered] 📡 从订阅源中发现 3 个 EPG 地址
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.finished] 正在进行获取订阅源  12/12  未匹配 842
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=sources.epg.summary] EPG源数量：1，EPG白名单数量：0，停用地址数量：0，有效总数量：1
+2026-08-17T14:02:06+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.started] 正在进行获取EPG源  0/4
+2026-08-17T14:02:09+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取EPG源  1/4 (25%)  剩余 3
+2026-08-17T14:02:10+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=request.retrying] 🔄 请求https://live.fanmingming.com/e.xml.gz失败，正在进行第1次重试...
+2026-08-17T14:02:11+00:00 WARNING [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=source.request_failed] EPG源请求失败：❌ 请求https://live.fanmingming.com/e.xml.gz失败，已达到最大重试次数
+2026-08-17T14:02:11+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取EPG源  2/4 (50%)  剩余 2
+2026-08-17T14:02:12+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取EPG源  3/4 (75%)  剩余 1
+2026-08-17T14:02:13+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.updated] 正在进行获取EPG源  4/4 (100%)  剩余 0
+2026-08-17T14:02:13+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=sources.epg.finished] EPG源: ✅ 有效地址数量：1，⛔ 停用地址数量：0
+2026-08-17T14:02:13+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=fetch event=progress.finished] 正在进行获取EPG源  4/4  匹配 66 个频道
+2026-08-17T14:02:18+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=aggregate event=channels.aggregated] 频道数据聚合完成：107 个频道，373 个接口（IPv4 245 / IPv6 41）
+2026-08-17T14:02:18+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=speed_test.planned] 总接口数量: 370, 需要进行测速的接口数量: 243
+2026-08-17T14:02:18+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.started] 测速  0/243
+2026-08-17T14:02:18+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  1/243 (0%)  有效 0  失败 1  CCTV-1
+2026-08-17T14:02:26+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  25/243 (10%)  有效 5  失败 20  CCTV-5
+2026-08-17T14:02:35+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  49/243 (20%)  有效 10  失败 39  CCTV-8
+2026-08-17T14:02:44+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  73/243 (30%)  有效 13  失败 60  CCTV-12
+2026-08-17T14:02:49+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  98/243 (40%)  有效 16  失败 82  CCTV-16
+2026-08-17T14:03:02+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  122/243 (50%)  有效 19  失败 103  湖南卫视
+2026-08-17T14:03:15+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  146/243 (60%)  有效 22  失败 124  安徽卫视
+2026-08-17T14:03:26+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  171/243 (70%)  有效 23  失败 148  河南卫视
+2026-08-17T14:03:37+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  195/243 (80%)  有效 25  失败 170  宁夏卫视
+2026-08-17T14:03:49+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  219/243 (90%)  有效 27  失败 192  天津卫视
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.updated] 测速  243/243 (100%)  有效 33  失败 210  淮安影院娱乐
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=speed_test.artifacts_written] 测速明细已写入 output/log/speed_test.log，有效结果已写入 output/log/result.log
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=speed_test event=progress.finished] 测速  243/243  有效 33  失败 210
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=output event=output.written] 结果文件生成完成：更新 3 个文件
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=statistics event=statistics.finished] 频道统计完成：测试 243，有效 33
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=complete event=run.summary] 更新摘要
+2026-08-17T14:04:07+00:00 INFO    [run=56ef54bd2bf54ddf941aaaf4a58dc634 phase=complete event=run.finished] 更新完成！总耗时：02:25
